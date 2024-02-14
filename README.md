@@ -4,14 +4,14 @@
 
 ## 導入方法
 
-`afkdead-0.1.0.jar`をダウンロードし、お使いのMinecraftサーバの`plugins`フォルダに配置する。
-
-サーバを起動、稼働中の場合は再起動を
+1. `afkdead-0.1.0.jar`をダウンロードし、お使いのMinecraftサーバの`plugins`フォルダに配置する。
+2. サーバを起動する。
 
 ## 設定項目 (config.yml)
 
 ```yaml
-duration: 900s # seconds
+timeLimit: 900 # seconds
+kickMessage: "AFKのためキックされました。"
 ```
 
 ## Credits
