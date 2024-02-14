@@ -1,0 +1,2 @@
+timeLimit: 900 # seconds
+kickMessage: "AFKのためキックされました。"
