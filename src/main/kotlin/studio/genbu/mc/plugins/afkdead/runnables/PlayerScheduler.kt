@@ -26,7 +26,10 @@ class PlayerScheduler(
         timeLimit--
 
         if (timeLimit <= 0) {
-            player.kick(Component.text("AFKのためキックされました。"))
+            main.config.getString("kickMessage")?.let {
+                player.kick(Component.text(it))
+            }
+
             cancel()
         }
     }
